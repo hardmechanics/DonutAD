@@ -1,0 +1,104 @@
+* {
+    background-color: lightgray;
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.pic1 {
+    width: 100px;
+    height: auto;
+    margin: 50px;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+a {    
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+}
+
+.intro {
+    margin: 20px;
+    font-size: 18px;
+    color: blue;
+}
+
+.navs {
+    display: flex;
+    gap: 15px;
+    width: 360px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.current {
+    font-weight: bold;
+    text-decoration: underline;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid darkblue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px
+}
+
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.dis {
+    border: 2px solid darkblue;
+    border-radius: 8px;
+}
+
+.orb {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    border: 2px solid darkblue;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: lightgray;
+}
